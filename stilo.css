@@ -1,0 +1,79 @@
+body {
+	width: 80%;
+	max-width: 800px;
+    margin: auto;
+	background: #f0f0f0;
+    font-family: sans-serif;
+	line-height: 2
+	color: black;
+	margin-top: -350pt; 
+}
+
+	main {
+		background: white;
+		padding-top: 40px; padding-right: 15px; padding-left: 15px; padding-bottom: 15px; 
+}
+/* Botoes inferiores */ 
+.corBtn { 
+	position: fixed;
+	right:  70px; 	
+	bottom: 10pt;
+	border: none;
+	background: white;
+}
+	.ballonBtn {
+		position: fixed;
+		right:  40px;
+		bottom: 10pt;
+		border: none;
+		background: white;	
+}
+.lapisBtn {
+	position: fixed;
+	right:  10px;
+	bottom: 10pt;
+	border: none;
+	background: white;
+}
+/* botoes superiores */
+	.folhaBtn {
+	position: fixed; background: white; border: none;
+	left: 5pt;
+	top: 5pt;
+    bottom: 30;
+    z-index: 1;
+}
+.estraBtn {
+position: fixed;
+left: 29px;
+top: 2pt; 
+z-index: 1;
+border: none;
+padding: 5px;
+background: white;	
+}
+	.engrenaBtn {
+	position: fixed;
+	right: 51px;
+	top: 4pt;
+	border: none;
+	padding: 2px;
+}
+.TopLapisBtn {
+position: fixed;
+right: 10px;
+top: 4pt;
+background: #87CEFA;
+border: none;
+padding: 2px;
+}
+	.cabeçalho {
+	position: fixed; 
+	right:  -0pt;
+	width: 1300px; 
+	height: 24pt;
+	top: 0;
+	z-index: 0;
+	background: white;
+	border: none;	
+}
